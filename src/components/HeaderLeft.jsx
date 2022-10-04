@@ -38,7 +38,7 @@ const HeaderLeft = (props) => {
     <Container id="headerMiniContainer">
       <Col className="d-flex flex-column justify-content-center">
         <Image
-          src="https://media-exp2.licdn.com/dms/image/C4D16AQHmxrz58chkGQ/profile-displaybackgroundimage-shrink_200_800/0/1655924719323?e=1663200000&v=beta&t=UdIxq-awJA4w0g8X7fLO1nWsblAfd-PQaH2m06dKPR0"
+          src="https://i.pinimg.com/originals/60/bf/7c/60bf7c84a3f4bb95b2a4d0697bbedbae.jpg"
           id="backgroundImage"
         />
         <Row className="d-flex flex-column align-items-center borderBottom ">

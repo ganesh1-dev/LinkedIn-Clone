@@ -58,7 +58,7 @@ const Experiences = ({ Experience, addToExperience, Changed, changer }) => {
             Accept: "application/json, text/plain, /",
             "Content-type": "application/json",
             Authorization:
-              "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzA2Mjk1YTJlZThkNjAwMTU0OGRlMDkiLCJpYXQiOjE2NjEzNDgxODcsImV4cCI6MTY2MjU1Nzc4N30.URz0tug9Gqbu9_CZ_qzivf3oqKg6jgOwvf4JQrICDoA",
+              "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzNjMTZmYjRjYzU2YzAwMTU2ZjE5NmMiLCJpYXQiOjE2NjQ4ODI0MjcsImV4cCI6MTY2NjA5MjAyN30.2RDte3wVXvN0Cr-WCkw2llKFBIfW0ToegCCaQ9pNqyI",
           },
           body: JSON.stringify(bodys),
         });
@@ -94,7 +94,6 @@ const Experiences = ({ Experience, addToExperience, Changed, changer }) => {
           setNewExperiences(data);
           setlastToggle(toggle);
           console.log(data);
-          console.log(NewExperiences[0].endDate);
         }
       } catch (error) {
         console.log(error);

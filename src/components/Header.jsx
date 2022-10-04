@@ -32,7 +32,7 @@ export default function Header() {
           <div className="bg-image">
             <img
               id="bg-img"
-              src="https://media-exp2.licdn.com/dms/image/C4D16AQHmxrz58chkGQ/profile-displaybackgroundimage-shrink_350_1400/0/1655924719323?e=1663200000&v=beta&t=hOQhQn96QRuSe7iEO-JnOOt9d_z5nzRwuWUN-yMyx7M"
+              src="https://marketplace.canva.com/EAE2cQaUHVA/1/0/1600w/canva-black-minimal-motivation-quote-linkedin-banner-HoRi-2buBWk.jpg"
               alt="bgimage"
             />
           </div>

@@ -1,7 +1,7 @@
 /** @format */
 
 import { useState, useEffect } from "react";
-import { Button, Col, Container, Modal, Row } from "react-bootstrap";
+import { Button, Col, Container, Modal, Row, Image } from "react-bootstrap";
 import { ArrowRight, Pencil, PeopleFill, Plus } from "react-bootstrap-icons";
 import { useParams } from "react-router-dom";
 import "../css/Header.css";
@@ -57,7 +57,7 @@ const UserProfile = () => {
             <div className="body-part" style={{ width: "100%" }}>
               <div className="bg-image">
                 <img
-                  src="https://i.pinimg.com/originals/60/bf/7c/60bf7c84a3f4bb95b2a4d0697bbedbae.jpg"
+                  src="https://marketplace.canva.com/EAE2cQaUHVA/1/0/1600w/canva-black-minimal-motivation-quote-linkedin-banner-HoRi-2buBWk.jpg"
                   id="bg-img"
                   alt="bgimage"
                 />
