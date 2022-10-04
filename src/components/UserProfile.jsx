@@ -7,6 +7,7 @@ import { useParams } from "react-router-dom";
 import "../css/Header.css";
 import Experiences from "./Experiences";
 import Sidebar from "./SideBar";
+import bg from "../assets/linkedin.png";
 
 const UserProfile = () => {
   const [userProfileData, setUserProfileData] = useState({});
@@ -33,7 +34,7 @@ const UserProfile = () => {
       const response = await fetch(url, {
         headers: {
           Authorization:
-            "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmNiZWNlY2U2YzAzMDAwMTU5MTgxNDMiLCJpYXQiOjE2NTc1MzE2MjgsImV4cCI6MTY1ODc0MTIyOH0.Ueo_M62QO05ffN1aYIPJjOyI14bH3uldPPo-OlagobM",
+            "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzNjMTZmYjRjYzU2YzAwMTU2ZjE5NmMiLCJpYXQiOjE2NjQ4ODI0MjcsImV4cCI6MTY2NjA5MjAyN30.2RDte3wVXvN0Cr-WCkw2llKFBIfW0ToegCCaQ9pNqyI",
         },
       });
       if (response.ok) {
@@ -56,8 +57,8 @@ const UserProfile = () => {
             <div className="body-part" style={{ width: "100%" }}>
               <div className="bg-image">
                 <img
+                  src="https://i.pinimg.com/originals/60/bf/7c/60bf7c84a3f4bb95b2a4d0697bbedbae.jpg"
                   id="bg-img"
-                  src="https://i.pinimg.com/originals/2d/e8/82/2de882cd4f3992ada3d609e3a183f7a4.jpg"
                   alt="bgimage"
                 />
               </div>

@@ -11,7 +11,7 @@ export const fetchProfilesAction = () => {
         {
           headers: {
             Authorization:
-              "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmNiZWNlY2U2YzAzMDAwMTU5MTgxNDMiLCJpYXQiOjE2NTc1MzE2MjgsImV4cCI6MTY1ODc0MTIyOH0.Ueo_M62QO05ffN1aYIPJjOyI14bH3uldPPo-OlagobM",
+              "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzNjMTZmYjRjYzU2YzAwMTU2ZjE5NmMiLCJpYXQiOjE2NjQ4ODI0MjcsImV4cCI6MTY2NjA5MjAyN30.2RDte3wVXvN0Cr-WCkw2llKFBIfW0ToegCCaQ9pNqyI",
           },
         }
       );
@@ -33,15 +33,15 @@ export const fetchProfilesAction = () => {
 };
 
 export const Changed = (Exp) => ({
-  type: 'Changed',
+  type: "Changed",
   payload: Exp,
-})
+});
 
 export const addToExp = (Exp, target) => ({
-  type: 'ADD_TO_EXP',
+  type: "ADD_TO_EXP",
   payload: Exp,
-  target: target
-})
+  target: target,
+});
 
 export const editProfileAction = () => {
   return async (dispatch) => {
@@ -61,7 +61,7 @@ export const editProfileAction = () => {
           headers: {
             "Content-Type": "application/json",
             Authorization:
-              "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmNiZWNlY2U2YzAzMDAwMTU5MTgxNDMiLCJpYXQiOjE2NTc1MzE2MjgsImV4cCI6MTY1ODc0MTIyOH0.Ueo_M62QO05ffN1aYIPJjOyI14bH3uldPPo-OlagobM",
+              "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzNjMTZmYjRjYzU2YzAwMTU2ZjE5NmMiLCJpYXQiOjE2NjQ4ODI0MjcsImV4cCI6MTY2NjA5MjAyN30.2RDte3wVXvN0Cr-WCkw2llKFBIfW0ToegCCaQ9pNqyI",
           },
         }
       );
